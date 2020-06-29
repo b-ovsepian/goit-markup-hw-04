@@ -34,14 +34,18 @@
       <ul class="cont-nav list">
         <li class="item">
           <a href="mailto:info@devstudio.com" class="link">
-            <img src="./images/mail.svg" alt="иконка почты" />
+            <svg class="cont-nav__icon" width="16" height="11.2">
+              <use href="./images/sprite.svg#iconmail"></use>
+            </svg>
             info@devstudio.com
           </a>
         </li>
         <li class="item">
           <a href="tel:+380961111111" class="link">
-            <img src="./images/phone.svg" alt="иконка телефона" />
-            +380961111111
+            <svg class="cont-nav__icon" width="10" height="15">
+              <use href="./images/sprite.svg#iconphone"></use>
+            </svg>
+            +38 096 111 11 11
           </a>
         </li>
       </ul>
@@ -171,29 +175,51 @@
               <a href="tel:+380991111111" class="link">+38 099 111 11 11</a>
             </address>
           </div>
-          <p class="title"><b>присоединяйтесь</b></p>
-          <!-- <ul class="list">
-                        <li>
-                          <a href="" class="team-link" aria-label="ссылка на instagram"
-                            >instagram</a
-                          >
-                        </li>
-                        <li>
-                          <a href="" class="team-link" aria-label="ссылка на twitter"
-                            >twitter</a
-                          >
-                        </li>
-                        <li>
-                          <a href="" class="team-link" aria-label="ссылка на facebook"
-                            >facebook</a
-                          >
-                        </li>
-                        <li>
-                          <a href="" class="team-link" aria-label="ссылка на linkedin"
-                            >linkedin</a
-                          >
-                        </li>
-                      </ul> -->
+          <div class="join">
+            <p class="title"><b>присоединяйтесь</b></p>
+            <ul class="join-list">
+              <li class="join-item">
+                <a href="" class="join-link" aria-label="ссылка на instagram">
+                  <svg class="icon" width="20" height="20">
+                    <use href="./images/sprite.svg#iconinstagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="join-item">
+                <a
+                  href=""
+                  class="join-link twitter"
+                  aria-label="ссылка на twitter"
+                >
+                  <svg class="icon" width="20" height="20">
+                    <use href="./images/sprite.svg#icontwitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="join-item">
+                <a
+                  href=""
+                  class="join-link facebook"
+                  aria-label="ссылка на facebook"
+                >
+                  <svg class="icon" width="20" height="20">
+                    <use href="./images/sprite.svg#iconfacebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="join-item">
+                <a
+                  href=""
+                  class="join-link linkedin"
+                  aria-label="ссылка на linkedin"
+                >
+                  <svg class="icon" width="20" height="20">
+                    <use href="./images/sprite.svg#iconlinkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
           <div class="sign">
             <p class="title"><b>Подпишитесь на рассылку</b></p>
             <button class="button secondary" type="button">Подписаться</button>
